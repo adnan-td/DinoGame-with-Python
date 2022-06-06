@@ -61,7 +61,7 @@ class Obstacle(pygame.sprite.Sprite):
         elif choice == 'cactus2':
             cactus = pygame.image.load(
                 'graphics/Cactus/Cactus-2.png').convert_alpha()
-            cactus = pygame.transform.rotozoom(cactus, 0, 0.75)
+            cactus = pygame.transform.rotozoom(cactus, 0, 0.65)
             self.image = cactus
             self.rect = self.image.get_rect(
                 midbottom=(randint(900, 1100), 300))
